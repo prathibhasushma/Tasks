@@ -1,0 +1,25 @@
+﻿*
+{
+    box-sizing:border-box;
+}
+.menu {
+    background-color:burlywood;
+    padding: 8px;
+    margin-top:7px;
+    display:block;
+    width:100%;
+    color:black;
+}
+.main{
+    float:left;
+    width:60%;
+    padding:0 20px;
+}
+.submain {
+    background-color: antiquewhite;
+    float:left;
+    width:20%;
+    padding: 8px;
+    margin-top: 7px;
+    text-align:center;
+}

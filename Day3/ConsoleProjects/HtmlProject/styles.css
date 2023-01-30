@@ -1,0 +1,21 @@
+﻿/* Applies the style to the whole body*/
+body{
+    position : center;
+    background-color:goldenrod ;
+        color:saddlebrown
+
+}
+/* applies the style only to the ids specified inthe html script using link tag after head*/
+#d1,#d3
+{
+    background-color:blue;
+    
+    
+
+}
+#d2{
+    background-color : grey
+}
+.div1 {
+    background-image: url('Images/Flower.jfif')
+}
