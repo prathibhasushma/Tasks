@@ -16,14 +16,14 @@ namespace Day5
             dessert.Add("Brownie");
             dessert.Add("Gulab Jamun");
             dessert.Add("Cake");
-            FileStream fs = new FileStream("D:\\Training and Learning\\HomeWork\\Homeworks\\Day5\\output.txt", FileMode.OpenOrCreate, FileAccess.Write);
+            FileStream fs = new FileStream("D:\\Training and Learning\\Git Project\\HomeWork\\Homeworks\\Day5\\output.txt", FileMode.OpenOrCreate, FileAccess.Write);
             StreamWriter sw = new StreamWriter(fs);
             foreach (object i in dessert)
                 sw.WriteLine(i);
             sw.Flush();
             sw.Close();
             fs.Close();
-            FileInfo info = new FileInfo("D:\\Training and Learning\\HomeWork\\Homeworks\\Day5\\output.txt");
+            FileInfo info = new FileInfo("D:\\Training and Learning\\Git Project\\HomeWork\\Homeworks\\Day5\\output.txt");
             Console.WriteLine(info.CreationTime);
             Console.WriteLine(info.Length);
         }
