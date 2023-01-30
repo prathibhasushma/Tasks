@@ -1,1 +1,0 @@
-﻿alert("Today is nation girl child day")
