@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Day5
+namespace C_sharp_task3_jan_23
 {
     internal class Readcollections
     {

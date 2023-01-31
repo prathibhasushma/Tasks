@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Day3
+namespace C_sharp_task1_jan_20
 {
     internal class MarksArray
     {

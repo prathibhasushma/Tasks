@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day3", "Day3\Day3.csproj", "{55D836AB-E3F9-4477-89BE-67E14DEA707F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C sharp task1 jan 20", "Day3\C sharp task1 jan 20.csproj", "{55D836AB-E3F9-4477-89BE-67E14DEA707F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day4", "Day4\Day4.csproj", "{77C123F4-6D77-429A-A1E8-D00BBBC6B165}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C sharp task2 jan 21", "Day4\C sharp task2 jan 21.csproj", "{77C123F4-6D77-429A-A1E8-D00BBBC6B165}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day5", "Day5\Day5.csproj", "{0BF084B8-2119-4D40-A1FC-B671C0EE023D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C sharp task3 jan 23", "Day5\C sharp task3 jan 23.csproj", "{0BF084B8-2119-4D40-A1FC-B671C0EE023D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlProjects", "HtmlProjects\HtmlProjects.csproj", "{660FE04F-32D6-455B-854F-31188F2CA42B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Html task 1 jan 23", "HtmlProjects\Html task 1 jan 23.csproj", "{660FE04F-32D6-455B-854F-31188F2CA42B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

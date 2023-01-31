@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace Day5
+namespace C_sharp_task3_jan_23
 {
     internal class Serializations
     {

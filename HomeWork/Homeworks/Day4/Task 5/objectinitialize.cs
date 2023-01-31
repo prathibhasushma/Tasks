@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Day4
+namespace C_sharp_task2_jan_21
 {
     
     internal class objectinitialize
