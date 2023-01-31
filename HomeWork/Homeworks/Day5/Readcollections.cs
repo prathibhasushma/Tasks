@@ -12,10 +12,11 @@ namespace Day5
         public static void Main()
         {
             ArrayList dessert = new ArrayList();
-            dessert.Add("Vanilla IceCream");
             dessert.Add("Brownie");
-            dessert.Add("Gulab Jamun");
-            dessert.Add("Cake");
+            dessert.Add("Vannila ice cream");
+            dessert.Add("chocolate truffel");
+            dessert.Add("Gulab jamun");
+            dessert.Add("Rasagulla");
             FileStream fs = new FileStream("D:\\Training and Learning\\Git Project\\HomeWork\\Homeworks\\Day5\\output.txt", FileMode.OpenOrCreate, FileAccess.Write);
             StreamWriter sw = new StreamWriter(fs);
             foreach (object i in dessert)
