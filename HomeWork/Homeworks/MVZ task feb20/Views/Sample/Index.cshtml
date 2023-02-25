@@ -1,0 +1,18 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Valentine'sDay";
+}
+<div>Sample View</div>
+
+<h1> Here is my Sample View</h1>
+<ul>
+    @for(int i =0;i<(int)@ViewData["no"];i++ )
+    {
+          <li><h2>Hello @ViewData["name"]</h2></li>
+    }
+</ul>
+@*<h2>Hello @ViewData["name"]</h2>
+<h4>@ViewData["no"]</h4>*@
