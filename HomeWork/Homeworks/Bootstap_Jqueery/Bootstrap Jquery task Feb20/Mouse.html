@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../Scripts/jquery-3.4.1.js"></script>
+    <style>
+        .Format {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td>Sno</td>
+            <td>Name</td>
+            <td>Place</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Prathibha sushma</td>
+            <td>Chennai</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Vigneshwar</td>
+            <td>Ambur</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Praghadeeshwar</td>
+            <td>chennai</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Boomica</td>
+            <td>Vellore</td>
+        </tr>
+    </table>
+    <script>
+        $("td").hover(function () {
+            $(this).addClass("Format");
+        },
+            function ()
+            {
+                $(this).removeClass("Format");
+            }
+        );
+    </script>
+
+</body>
+</html>
